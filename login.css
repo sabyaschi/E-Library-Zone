@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: url("https://st4.depositphotos.com/23354048/25923/i/450/depositphotos_259232270-stock-photo-background-wallpaper-form-defocused-bookshelf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fullscreen-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .heading h1 {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.75rem;
+    color: #efeef0;
+    text-align: center;
+  }
+  
+  .heading span {
+    color: #25d1a9;
+    font-size: 4rem;
+  }
+  a {
+    text-decoration: none;
+    color: #ff5252;
+  }
+  
+  .form-container {
+    background: #301656;
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-size: 1rem;
+  }
+  
+  .input-group input:focus {
+    box-shadow: 0 0 0 3px #ff5252;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background: rgb(118, 238, 118);
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:focus,
+  button:hover {
+    background: hsl(0, 100%, 76%);
+  }
+  
+  @media (max-width: 700px) {
+    .container {
+      flex-direction: column;
+      gap: 25px;
+    }
+  }
